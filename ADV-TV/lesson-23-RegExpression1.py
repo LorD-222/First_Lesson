@@ -1,10 +1,10 @@
 
 import re # импорт библиотеки
 mytext = "Vasya aaaaaaa 1972, Kolya - 1972: Olesya 1981, aaaa@intel.com" \
-         "bbbbb@intel.com, Petya ggggg, 1992, cccccc@yahoo.com,   " \
-         "ddddd@intel.com, vasya@yandex.net, hello hello, Misha #43 1984,  "\
-         "Vladimir 1977, Irina , 2001, annnnnnnn@intel.com, eeeeee@yandex.com, " \
-         "ooooo@hotmai.gov, gggggggggggggg@gov.gov, tututu@giv.hot"
+			"bbbbb@intel.com, Petya ggggg, 1992, cccccc@yahoo.com,   " \
+			"ddddd@intel.com, vasya@yandex.net, hello hello, Misha #43 1984,  "\
+			"Vladimir 1977, Irina , 2001, annnnnnnn@intel.com, eeeeee@yandex.com, " \
+			"ooooo@hotmai.gov, gggggggggggggg@gov.gov, tututu@giv.hot"
 
 """
 \d  = Any digit                            любая цифра
